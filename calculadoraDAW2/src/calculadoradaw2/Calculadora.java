@@ -9,25 +9,31 @@ package calculadoradaw2;
  * @author usuario
  */
 public class Calculadora {
-
-    private int op1;
-    private int op2;
+/**
+ * refactorizamos con el patron de refactorizacion rename los nombre se las
+ * variables de los dos operandos
+ */
+    private int operador1;
+    private int operador2;
     private int resultado;
 
     public int getOp1() {
-        return op1;
+        return operador1;
     }
-
+/**
+ * 
+ * @param op1 es el valor que se le asigna al parametro 
+ */
     public void setOp1(int op1) {
-        this.op1 = op1;
+        this.operador1 = op1;
     }
 
     public int getOp2() {
-        return op2;
+        return operador2;
     }
 
     public void setOp2(int op2) {
-        this.op2 = op2;
+        this.operador2 = op2;
     }
 
     public int getResultado() {
@@ -37,9 +43,14 @@ public class Calculadora {
     public void setResultado(int resultado) {
         this.resultado = resultado;
     }
-
-    public int suma(int op1, int op2) {
-        return op1 + op2;
+/**
+ * esta fucion hace la operación aritmética de la suma	
+ * @param operador1 es el primero operador
+ * @param operador2 es el segundo operador
+ * @return devuelve el resultado de la suma
+ */
+    public int suma(int operador1, int operador2) {
+        return operador1 + operador2;
     }
 
     public int resta(int op1, int op2) {
