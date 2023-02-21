@@ -62,11 +62,11 @@ public class Calculadora {
     }
 /**
  * esta funcios hace la operacion aritmética de la división
- * @param op1
- * @param op2
+ * @param operador1
+ * @param operador2
  * @return
  */
-    public int divide(int op1, int op2) {
-        return op1 / op2;
+    public int divide(int operador1, int operador2) {
+        return operador1 / operador2;
     }
 }
