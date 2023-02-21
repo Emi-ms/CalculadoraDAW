@@ -60,7 +60,12 @@ public class Calculadora {
     public int multiplica(int op1, int op2) {
         return op1 * op2;
     }
-
+/**
+ * esta funcios hace la operacion aritmética de la división
+ * @param op1
+ * @param op2
+ * @return
+ */
     public int divide(int op1, int op2) {
         return op1 / op2;
     }
