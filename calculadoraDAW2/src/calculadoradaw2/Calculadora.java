@@ -56,9 +56,14 @@ public class Calculadora {
     public int resta(int op1, int op2) {
         return op1 - op2;
     }
-
-    public int multiplica(int op1, int op2) {
-        return op1 * op2;
+/**
+ * esta funcion hace la operacion aritmética de la multiplicación
+ * @param operador1
+ * @param operador2
+ * @return
+ */
+    public int multiplica(int operador1, int operador2) {
+        return operador1 * operador2;
     }
 /**
  * esta funcios hace la operacion aritmética de la división
